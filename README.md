@@ -46,33 +46,17 @@ e8c7e17bac1698c97e44d4096ec20ac1b91c135285c1446b7b2e7ebbc9be933c
 
 ## Requirements
 To run the notebook and reproduce the results, you need the following dependencies:
-- Python 3.9+
-- TensorFlow 2.17
-- NumPy
-- Pandas
-- Matplotlib
-- scikit-learn
-- tqdm
-- cv2
-- patchify
-- imblearn
+- Python 3.11+
+- TensorFlow 2.15
+- ...
 
-You can install the required packages using:
+Install the required packages using:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Device
-- CoLab (Pro): 
-    - GPU: A100 Nvidia
-    - VRAM: 24.x GB
-    - CUDA: 12.2
-    - cuDNN: v8.9.x
-- MacBook Pro (16-inch, 2019):
-    - CPU: 2.3GHz 8‑core Intel Core i9, Turbo Boost up to 4.8GHz, with 16MB shared L3 cache
-    - RAM: 16GB of 2666MHz DDR4 
-    - GPU: AMD Radeon Pro 5500M with 4GB of GDDR6, Intel UHD Graphics 630
-    -  Metal Suppor: Metal 3
+- Accelerate training with Metal on Mac GPUs (Apple Silicon)
 
 ## File Structure
 - `@Original.ipynb`: Original Jupyter notebook containing the code for data preprocessing, model training, and evaluation.
